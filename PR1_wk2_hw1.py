@@ -27,9 +27,9 @@ received_user_input3 = input("Are you enjoying your homework?")
 received_user_input4 = input("What's your opinion of these young 2LTs all around you?")
 
 with open('user_input.txt', 'a') as User_Input_file:
-User_Input_file.write(received_user_input3 + "\n")
-User_Input_file.write(received_user_input4 + "\n")
-User_Input_file.close()
+    User_Input_file.write(received_user_input3 + "\n")
+    User_Input_file.write(received_user_input4 + "\n")
+    User_Input_file.close()
 
 ## Pr 5
 
@@ -37,3 +37,5 @@ User_Input_file.close()
 #* Populate it with typical files and directories (.gitignore and README.md)
 #* Commit your changes.
 #* Push it to your repository
+
+## My repository is at https://github.com/otothekay/python101wk2
