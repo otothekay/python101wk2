@@ -55,7 +55,7 @@ print(values, counts)
 ### 5
 #Read in a csv file but use dtype 'U5' for the header
 
-data = np.genfromtxt('Hawaii.csv', delimiter=',',dtype=None,encoding=None)
+data = np.genfromtxt('Hawaii.csv', delimiter=',',dtype="U5", encoding=None)
 print(data)
 data[1:-1,0:-1].astype(float)
 #I don't know why the above isn't converting the table values
