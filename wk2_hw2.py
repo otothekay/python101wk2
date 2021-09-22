@@ -58,6 +58,4 @@ print(values, counts)
 data = np.genfromtxt('Hawaii.csv', delimiter=',',dtype="U5", encoding=None)
 print(data)
 data[1:-1,0:-1].astype(float)
-#I don't know why the above isn't converting the table values
-# to floats that are rows non in the header.
 print(data)
