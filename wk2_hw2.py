@@ -57,5 +57,3 @@ print(values, counts)
 
 data = np.genfromtxt('Hawaii.csv', delimiter=',',dtype="U5", encoding=None)
 print(data)
-data[1:-1,0:-1].astype(float)
-print(data)
