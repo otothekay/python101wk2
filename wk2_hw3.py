@@ -27,10 +27,18 @@ plt.figure("A")
 plt.imshow(A) #Make an image plot object
 plt.figure("B")
 plt.imshow(B) #Make an image plot object
-plt.figure("Ant Logo")
+plt.figure("classlogo")
 plt.imshow(img)
 plt.show()  # Display it to screen
 plt.close()  # Make sure everything is closed
+
+fig_list = [A, B, img]
+fig_names = ["a", "b", "logo"]
+
+for figs, names in zip(fig_list, fig_names):
+    plt.figure("names")
+    plt.imshow(figs)
+    plt.show()
 
 ## HW
 
